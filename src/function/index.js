@@ -6,7 +6,9 @@
  * @returns {Response} https://developer.mozilla.org/en-US/docs/Web/API/Response
  */
 async function handleRequest(request, args) {
-  const message = `Hello World!`;
+  const message = `Happy Diwali!
+Wishing you a festival filled with lights, laughter, and love. May your days be as bright as the diyas and your life be filled with joy and prosperity. Celebrate with family and friends, and may the spirit of Diwali bring you peace and happiness!
+`;
 
   return new Response(message, {
     headers: {
