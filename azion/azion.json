@@ -1,0 +1,42 @@
+{
+  "name": "helloworld100",
+  "bucket": "",
+  "preset": "javascript",
+  "env": "production",
+  "prefix": "20241101155957",
+  "not-first-run": true,
+  "function": {
+    "id": 31599,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 30280,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 183896
+  },
+  "application": {
+    "id": 1730473399,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730472095,
+    "name": "helloworld100",
+    "domain_name": "bvmz71t452.map.azionedge.net",
+    "url": "https://bvmz71t452.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 314918,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
