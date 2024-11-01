@@ -12,7 +12,7 @@ async function handleRequest(request, args) {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Happy Diwali!</title>
+      <title>Hello World!</title>
       <style>
         body {
           font-family: Arial, sans-serif;
@@ -32,7 +32,7 @@ async function handleRequest(request, args) {
       </style>
     </head>
     <body>
-      <h1>Happy Diwali!</h1>
+      <h1>Hello World!</h1>
       <p>
         Wishing you a festival filled with lights, laughter, and love. 
         May your days be as bright as the diyas and your life be filled 
